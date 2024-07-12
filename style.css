@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+header{
+    background-image: linear-gradient(rgb(208, 210, 206),rgba(105, 187, 58, 0.5)),url(../task1/i1.jpg);
+    height: 270vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(4, 20, 9);
+    padding: 10px 15px; /* Add padding for better clickability */
+    display: block; /* Make the entire area clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+ul li.active a {
+    background-color: #259a25;
+    color: #121312;
+}
+
+ul li a:hover {
+    background-color: #3dbd26; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto;
+    left: 5%;
+    position: relative;
+    
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #881919;
+    font-size: 80px;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    position: absolute;
+    top: 50%;
+
+}
+.btn {
+    border: 2px solid #972727;
+    padding: 10px 30px;
+    color: #161a17;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #087221;
+    color: rgb(232, 112, 112);
+}
